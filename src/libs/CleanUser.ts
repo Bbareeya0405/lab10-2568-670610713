@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const cleanUser = (user :any) => {
   const newUser = {
     name: `${user.name.first} ${user.name.last}`,
